@@ -1,0 +1,18 @@
+USE [Housing]
+GO
+
+/****** Object:  Table [dbo].[Arch_Type]    Script Date: 04/26/2015 11:44:01 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Arch_Type](
+	[Arch_Id] [int] NOT NULL,
+	[Arch_Type] [nvarchar](50) NOT NULL
+) ON [PRIMARY]
+
+GO
+
+
